@@ -1,0 +1,8 @@
+version: "3.0"
+services:
+  machine:
+    image: dmdhrumilmistry/hackoncontainer:latest
+    stdin_open: true
+    tty: true
+    entrypoint:
+      - "/bin/bash"
